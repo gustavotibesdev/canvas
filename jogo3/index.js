@@ -71,7 +71,7 @@ const drawPlayer = () => {
 
 const animaPlayer = () => {
     if (player.direction == "up" || player.direction == "down" || player.direction == "right" || player.direction == "left") {
-        countAnim+=5
+        countAnim+=3
         if ( countAnim >= 40) {
             countAnim = 0
         }
